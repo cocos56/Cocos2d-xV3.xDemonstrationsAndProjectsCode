@@ -1,5 +1,8 @@
 #include "Bullet.h"
+#include "SimpleAudioEngine.h"
 #include <cmath>
+
+using namespace CocosDenshion;
 
 bool Bullet::init()
 {
@@ -34,6 +37,8 @@ void Bullet::fire(bool towardsLeft, bool isDown, bool isGoRight, bool isGoLeft, 
 	}
 	addChild(b);
 	bullets.pushBack(b);
+	SimpleAudioEngine::getInstance()->playEffect("sound/gun.mp3");
+	
 }
 void Bullet::moveBullets(float dt)
 {

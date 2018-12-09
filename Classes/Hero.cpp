@@ -84,12 +84,11 @@ void Hero::onKeyPressed2(EventKeyboard::KeyCode code, Event *evt)
 {
 	if(code == EventKeyboard::KeyCode::KEY_LEFT_ARROW)
 	{
-		isGoLeft=true;
+		isGoLeft = true;
 		towardsLeft = true;
 		if (!isJumping)
 		{
 			goAnimation();
-
 		}
 	}
 	else if(code == EventKeyboard::KeyCode::KEY_RIGHT_ARROW)
