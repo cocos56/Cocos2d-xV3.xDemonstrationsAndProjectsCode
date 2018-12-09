@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project '..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj' does not exist.
+  01_ContraGame.vcxproj -> E:\cocos\01_ContraGame\proj.win32\Debug.win32\01_ContraGame.exe
+  Performing Custom Build Step
+  复制了 0 个文件
