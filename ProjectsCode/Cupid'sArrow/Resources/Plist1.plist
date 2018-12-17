@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>bg.jpg</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{1024,655}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1024,655}</string>
+			</dict>
+			<key>dangong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1024,0},{724,594}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{724,594}</string>
+			</dict>
+			<key>shui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1748,0},{185,440}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{185,440}</string>
+			</dict>
+			<key>wu1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1896,440},{84,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{84,94}</string>
+			</dict>
+			<key>wu2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1896,524},{84,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{84,94}</string>
+			</dict>
+			<key>wu3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1896,608},{84,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{84,94}</string>
+			</dict>
+			<key>wu4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1896,692},{84,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{84,94}</string>
+			</dict>
+			<key>wu5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1896,776},{84,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{84,94}</string>
+			</dict>
+			<key>wu6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1886,860},{84,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{84,94}</string>
+			</dict>
+			<key>zhong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1748,440},{418,148}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{418,148}</string>
+			</dict>
+			<key>luo1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1024,594},{148,418}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{148,418}</string>
+			</dict>
+			<key>luo2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1442,594},{148,418}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{148,418}</string>
+			</dict>
+			<key>luo3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1590,594},{148,418}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{148,418}</string>
+			</dict>
+			<key>luo4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1738,858},{148,418}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{148,418}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist1.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist1.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

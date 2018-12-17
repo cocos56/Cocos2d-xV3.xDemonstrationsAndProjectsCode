@@ -1,0 +1,92 @@
+{
+   
+  "chapter_1":{
+    
+    "level_1":{
+"star":0,
+"num":6,"lock":0
+},
+    "level_2":{
+"star":0,
+"num":11,"lock":1
+}
+
+,    "level_3":{
+"star":0,
+"num":6,"lock":1
+}
+
+,    "level_4":{
+"star":0,
+"num":12,"lock":1
+},
+    "level_5":{
+"star":0,
+"num":17,"lock":1
+}
+
+,    "level_6":{
+"star":0,
+"num":16,"lock":1
+} 
+  },
+  "chapter_2":{
+    
+    "level_1":{
+"star":0,
+"num":10,"lock":0
+},
+    "level_2":{
+"star":0,
+"num":11,"lock":1
+}
+
+,    "level_3":{
+"star":0,
+"num":19,"lock":1
+}
+
+,    "level_4":{
+"star":0,
+"num":12,"lock":1
+},
+    "level_5":{
+"star":0,
+"num":12,"lock":1
+},
+    "level_6":{
+"star":0,
+"num":16,"lock":1
+}
+  },
+  "chapter_3":{
+    
+    "level_1":{
+"star":0,
+"num":14,"lock":0
+},
+    "level_2":{
+"star":0,
+"num":16,"lock":1
+}
+
+,    "level_3":{
+"star":0,
+"num":11,"lock":1
+}
+
+,    "level_4":{
+"star":0,
+"num":12,"lock":1
+},
+    "level_5":{
+"star":0,
+"num":13,"lock":1
+}
+
+,    "level_6":{
+"star":0,
+"num":13,"lock":1
+} 
+  }
+}

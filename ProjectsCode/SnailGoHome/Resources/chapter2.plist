@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fangzi1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,120},{100,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,108}</string>
+			</dict>
+			<key>fangzi2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{100,120},{100,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,108}</string>
+			</dict>
+			<key>grass_long.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,228},{250,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{250,25}</string>
+			</dict>
+			<key>grass_long2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{120,70},{160,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{160,30}</string>
+			</dict>
+			<key>grass2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{280,95},{70,62}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,62}</string>
+			</dict>
+			<key>mushroom_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{120,120}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{120,120}</string>
+			</dict>
+			<key>pricker.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{200,100},{78,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{78,34}</string>
+			</dict>
+			<key>star2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{200,134},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>wall_red.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{370,0},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>wall_tra.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{440,0},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>wood1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{120,0},{250,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{250,25}</string>
+			</dict>
+			<key>wood2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{120,25},{160,22}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{160,22}</string>
+			</dict>
+			<key>wowo1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{280,25},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>wowo2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{350,70},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>chapter2.png</string>
+			<key>realTextureFileName</key>
+			<string>chapter2.png</string>
+			<key>size</key>
+			<string>{512,256}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>256</integer>
+		</dict>
+	</dict>
+</plist>

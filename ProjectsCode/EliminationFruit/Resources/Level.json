@@ -1,0 +1,49 @@
+{
+    "Levels": [
+               {
+               "PassTheScore":1500,
+               "HightSocre":0,
+               "Unclock": 1
+               },
+               {
+               "PassTheScore":2500,
+               "HightSocre":0,
+               "Unclock":0
+               },
+               {
+               "PassTheScore":3500,
+               "HightSocre":0,
+               "Unclock":0
+               },
+               {
+               "PassTheScore":4500,
+               "HightSocre":0,
+               "Unclock":0
+               },
+               {
+               "PassTheScore":5500,
+               "HightSocre":0,
+               "Unclock":0
+               },
+               {
+               "PassTheScore":6500,
+               "HightSocre":0,
+               "Unclock":0
+               },
+               {
+               "PassTheScore":7500,
+               "HightSocre": 0,
+               "Unclock": 0
+               },
+               {
+               "PassTheScore":8500,
+               "HightSocre":0,
+               "Unclock":0
+               },
+               {
+               "PassTheScore":9500,
+               "HightSocre":0,
+               "Unclock":0
+               }
+               ]
+}

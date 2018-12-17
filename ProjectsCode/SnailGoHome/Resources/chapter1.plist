@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>fangzi2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{120,0},{100,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,108}</string>
+			</dict>
+			<key>fangzi3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{120,100},{100,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,108}</string>
+			</dict>
+			<key>grass.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{104,340},{70,62}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,62}</string>
+			</dict>
+			<key>grass_long1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{189,200},{160,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{160,30}</string>
+			</dict>
+			<key>leaf1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,120},{154,49}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{154,49}</string>
+			</dict>
+			<key>mushroom_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{120,120}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{120,120}</string>
+			</dict>
+			<key>pricker.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,274},{78,34}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{78,34}</string>
+			</dict>
+			<key>star2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,400},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>wall_red.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{49,120},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>wall_tra.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{49,190},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>wood_circle.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{119,200},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>wowo1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{49,260},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>wowo2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{119,270},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>yezi2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{34,330},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>zhuzi2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{228,0},{250,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{250,25}</string>
+			</dict>
+			<key>zhuzi3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{219,250},{160,20}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{160,20}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>chapter1.png</string>
+			<key>realTextureFileName</key>
+			<string>chapter1.png</string>
+			<key>size</key>
+			<string>{256,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>256</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>
