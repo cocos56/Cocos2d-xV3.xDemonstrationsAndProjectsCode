@@ -1,9 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project '..\cocos2d\external\Box2D\proj.win32\libbox2d.vcxproj' does not exist.
-  Hero.cpp
-e:\cocos\01_contragame\classes\gamescene.h(16): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决
-  e:\cocos\01_contragame\cocos2d\cocos\2d\cclabelttf.h(68): note: 参见“cocos2d::LabelTTF”的声明
-e:\cocos\01_contragame\classes\hero.cpp(47): warning C4305: “参数”: 从“double”到“float”截断
-e:\cocos\01_contragame\classes\hero.cpp(70): warning C4305: “参数”: 从“double”到“float”截断
-  01_ContraGame.vcxproj -> E:\cocos\01_ContraGame\proj.win32\Debug.win32\01_ContraGame.exe
-  Performing Custom Build Step
-  复制了 0 个文件
