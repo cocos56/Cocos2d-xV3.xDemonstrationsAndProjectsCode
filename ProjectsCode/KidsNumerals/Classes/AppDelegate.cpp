@@ -1,13 +1,21 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
 #include "MenuScene.h"
+#include "SimpleAudioEngine.h"
 
 USING_NS_CC;
+using namespace CocosDenshion;
 
-static cocos2d::Size designResolutionSize = cocos2d::Size(480, 320);
-static cocos2d::Size smallResolutionSize = cocos2d::Size(480, 320);
-static cocos2d::Size mediumResolutionSize = cocos2d::Size(1024, 768);
-static cocos2d::Size largeResolutionSize = cocos2d::Size(2048, 1536);
+//static cocos2d::Size designResolutionSize = cocos2d::Size(480, 320);
+//static cocos2d::Size smallResolutionSize = cocos2d::Size(480, 320);
+//static cocos2d::Size mediumResolutionSize = cocos2d::Size(1024, 768);
+//static cocos2d::Size largeResolutionSize = cocos2d::Size(2048, 1536);
+
+int a = 1920 / 2, b = 1080 / 2;
+static cocos2d::Size designResolutionSize = cocos2d::Size(a, b);
+static cocos2d::Size smallResolutionSize = cocos2d::Size(a, b);
+static cocos2d::Size mediumResolutionSize = cocos2d::Size(a, b);
+static cocos2d::Size largeResolutionSize = cocos2d::Size(a, b);
 
 AppDelegate::AppDelegate() {
 
@@ -80,6 +88,14 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // run
     director->runWithScene(scene);
+
+	std::string _spriteNames[11] = { "zero","one","two","three","four","five","six","seven","eight","nine","ten" };
+	char _spriteAudioName[20] = { 0 };
+	for (int i=0; i<11; i++)
+	{
+		sprintf(_spriteAudioName, "%s.wav", _spriteNames[i].c_str());
+		SimpleAudioEngine::sharedEngine()->preloadEffect(_spriteAudioName);
+	}
 
     return true;
 }

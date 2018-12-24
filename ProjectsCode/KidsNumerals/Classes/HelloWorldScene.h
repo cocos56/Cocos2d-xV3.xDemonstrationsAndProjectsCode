@@ -1,5 +1,4 @@
-#ifndef __HELLOWORLD_SCENE_H__
-#define __HELLOWORLD_SCENE_H__
+#pragma once
 
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
@@ -34,11 +33,6 @@ MAX(GET_SCREEN_SIZE.width/_object->getContentSize().width,GET_SCREEN_SIZE.height
 #define SCALE_UNIV_SPRTE(_object,factor) \
 MIN(GET_SCREEN_SIZE.width/_object->getContentSize().width,GET_SCREEN_SIZE.height/_object->getContentSize().height) * factor
 
-
-
-
-
-
 class HelloWorld : public cocos2d::Layer
 {
 public:
@@ -61,5 +55,3 @@ public:
     MenuItemImage* prevNumItem;
     MenuItemImage* nextNumItem;
 };
-
-#endif // __HELLOWORLD_SCENE_H__

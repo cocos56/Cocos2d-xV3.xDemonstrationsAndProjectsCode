@@ -1,6 +1,5 @@
 #include "HelloWorldScene.h"
 
-
 USING_NS_CC;
 
 Scene* HelloWorld::createScene()
@@ -27,9 +26,7 @@ bool HelloWorld::init()
     {
         return false;
     }
-    
-    
-    
+
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
     
@@ -120,9 +117,6 @@ void HelloWorld::createNewNumber(int i)
         nextNumItem->setVisible(true);
     }
 
-    
-    
-    
     _mySprite = MySprite::create(i);
     // position the sprite on the center of the screen
     _mySprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
@@ -157,7 +151,6 @@ void HelloWorld::nextNumberCallback(Ref* pSender)
         removeChild(_mySprite);
     }
     
-    
     if (currentNumber<9)
     {
         currentNumber = currentNumber + 1;
@@ -166,8 +159,6 @@ void HelloWorld::nextNumberCallback(Ref* pSender)
     {
         currentNumber = 9;
     }
-    
-    
     
     this->createNewNumber(currentNumber);
 }

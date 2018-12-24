@@ -1,13 +1,4 @@
-//
-//  MenuScene.h
-//  KidsNumerals
-//
-//  Created by mythlab on 12/14/15.
-//
-//
-
-#ifndef __KidsNumerals__MenuScene__
-#define __KidsNumerals__MenuScene__
+#pragma once
 
 #include "cocos2d.h"
 #include "HelloWorldScene.h"
@@ -27,5 +18,3 @@ public:
     
     
 };
-
-#endif /* defined(__KidsNumerals__MenuScene__) */

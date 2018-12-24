@@ -1,11 +1,3 @@
-//
-//  MySprite.cpp
-//  KidsNumerals
-//
-//  Created by mythlab on 12/9/15.
-//
-//
-
 #include "MySprite.h"
 
 MySprite::MySprite(){}
@@ -22,10 +14,9 @@ MySprite* MySprite::create(int i)
     std::vector<Sprite*> _sprites;
     std::vector<std::string> _spriteNames = {"zero","one","two","three","four","five","six","seven","eight","nine","ten"};
     
-   // int i = RandomHelper::random_int(1, 9);
+	//i = RandomHelper::random_int(1, 9);
     sprintf(_spriteFileName,"%s.png",_spriteNames.at(i).c_str());
     sprintf(_spriteAudioName,"%s.wav",_spriteNames.at(i).c_str());
-    SimpleAudioEngine::sharedEngine()->preloadEffect(_spriteAudioName);
    
     
      MySprite* pSprite = new MySprite();
@@ -77,7 +68,7 @@ void MySprite::addEvents()
 
 void MySprite::touchEvent(Touch* touch, cocos2d::Vec2 _p)
 {
-    CocosDenshion::SimpleAudioEngine::getInstance()->playEffect(_spriteAudioName);
+    SimpleAudioEngine::getInstance()->playEffect(_spriteAudioName);
     touchEffect();
 }
 
@@ -100,6 +91,3 @@ void MySprite::removeMySprite()
     listener->release();
     removeFromParentAndCleanup(true);
 }
-
-
-

@@ -10,38 +10,38 @@ touchesTest::~touchesTest(void)
 
 Scene * touchesTest::createScene()
 {
-	auto scene=Scene::create();
-	auto layer=Layer::create();
+	auto scene = Scene::create();
+	auto layer = Layer::create();
 	scene->addChild(layer);
 	return scene;
 }
-bool touchesTest::init( )
+bool touchesTest::init()
 {
- if(!Layer::init())
- {
-	 return false;
- }
+	if (!Layer::init())
+	{
+		return false;
+	}
 
- auto sp=Sprite::create("bg.jpg");
- sp->setPosition(240,160);
- this->addChild(sp);
- // 1:获取触摸事件分发器（事件管理中心）
- auto dispatcher=Director::getInstance( )->getEventDispatcher();
+	auto sp = Sprite::create("bg.jpg");
+	sp->setPosition(240, 160);
+	this->addChild(sp);
+	// 1:获取触摸事件分发器（事件管理中心）
+	auto dispatcher = Director::getInstance()->getEventDispatcher();
 
- //2:创建多点触摸监听者,按alter键并单击鼠标就可在模拟器上出现两个点
- auto  touchesListener=EventListenerTouchAllAtOnce::create();
- /*吞噬触摸，若两个layer都接收到触摸事件，则上面的将吞噬掉下面的，
- 使下面的层监听不到触摸事件。多点触摸不能用*/
- // touchListener->setSwallowTouches(true);
- //3:设置触摸开始时的函数回调
- touchesListener->onTouchesBegan=CC_CALLBACK_2(touchesTest::onTouchesBegan,this);
- touchesListener->onTouchesMoved=CC_CALLBACK_2(touchesTest::onTouchesMoved,this);
- touchesListener->onTouchesEnded=CC_CALLBACK_2(touchesTest::onTouchesEnded,this);
- touchesListener->onTouchesCancelled=CC_CALLBACK_2(touchesTest::onTouchesCancelled,this);
-  //4：添加事件监听者到事件分发中心
- dispatcher->addEventListenerWithSceneGraphPriority(touchesListener,this);
- 
- true;
+	//2:创建多点触摸监听者,按alter键并单击鼠标就可在模拟器上出现两个点
+	auto  touchesListener = EventListenerTouchAllAtOnce::create();
+	/*吞噬触摸，若两个layer都接收到触摸事件，则上面的将吞噬掉下面的，
+	使下面的层监听不到触摸事件。多点触摸不能用*/
+	// touchListener->setSwallowTouches(true);
+	//3:设置触摸开始时的函数回调
+	touchesListener->onTouchesBegan = CC_CALLBACK_2(touchesTest::onTouchesBegan, this);
+	touchesListener->onTouchesMoved = CC_CALLBACK_2(touchesTest::onTouchesMoved, this);
+	touchesListener->onTouchesEnded = CC_CALLBACK_2(touchesTest::onTouchesEnded, this);
+	touchesListener->onTouchesCancelled = CC_CALLBACK_2(touchesTest::onTouchesCancelled, this);
+	//4：添加事件监听者到事件分发中心
+	dispatcher->addEventListenerWithSceneGraphPriority(touchesListener, this);
+
+	true;
 }
 void touchesTest::onTouchesBegan(const std::vector<Touch*>& touches, Event *unused_event)
 {
@@ -59,19 +59,19 @@ void touchesTest::onTouchesBegan(const std::vector<Touch*>& touches, Event *unus
 	 由end返回的迭代器指向最后一个元素的下一个，不存在.
 	 若v为空，begin和end返回的相同。*iter=0;iter++即将迭代器向前移动一个位置,
 	 即将v[0]赋值为0,由end返回的不允许进行解操作。
-     ==和!=操作符来比较两个迭代器，若两个迭代器指向同一个元素，则它们相等，否则不相等。
+	 ==和!=操作符来比较两个迭代器，若两个迭代器指向同一个元素，则它们相等，否则不相等。
 */
-	//有几个手指触摸屏幕将会在屏幕上触摸的位置绘制几个bird精灵。
-	log("%d",(int)touches.size());
-    auto itor=touches.begin();//C++第七章，模板库的迭代器
-    for (; itor!=touches.end(); itor++)
-    {
-        auto touch=(Touch*)(*itor);
-		Vec2 pos=touch->getLocation();
-		log("(%f,%f)",pos.x,pos.y);
-		auto birdSprite=Sprite::create("bird.png");
+//有几个手指触摸屏幕将会在屏幕上触摸的位置绘制几个bird精灵。
+	log("%d", (int)touches.size());
+	auto itor = touches.begin();//C++第七章，模板库的迭代器
+	for (; itor != touches.end(); itor++)
+	{
+		auto touch = (Touch*)(*itor);
+		Vec2 pos = touch->getLocation();
+		log("(%f,%f)", pos.x, pos.y);
+		auto birdSprite = Sprite::create("bird.png");
 		birdSprite->setPosition(pos);
-		this->addChild(birdSprite);		
+		this->addChild(birdSprite);
 	}
 }
 void touchesTest::onTouchesMoved(const std::vector<Touch*>& touches, Event *unused_event)

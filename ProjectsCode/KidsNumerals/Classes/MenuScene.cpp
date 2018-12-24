@@ -1,11 +1,3 @@
-//
-//  MenuScene.cpp
-//  KidsNumerals
-//
-//  Created by mythlab on 12/14/15.
-//
-//
-
 #include "MenuScene.h"
 
 Scene* MenuScene::createScene()
@@ -64,8 +56,6 @@ bool MenuScene::init()
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
     
-    
-    
     return true;
 }
 
@@ -89,8 +79,3 @@ void MenuScene::exitCallback(Ref* pSender)
     exit(0);
 #endif
 }
-
-
-
-
-

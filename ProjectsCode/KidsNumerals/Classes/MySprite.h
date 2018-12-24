@@ -1,13 +1,4 @@
-//
-//  MySprite.h
-//  KidsNumerals
-//
-//  Created by mythlab on 12/9/15.
-//
-//
-
-#ifndef __KidsNumerals__MySprite__
-#define __KidsNumerals__MySprite__
+#pragma once
 
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
@@ -33,5 +24,3 @@ public:
     void touchEffect();
 
 };
-
-#endif /* defined(__KidsNumerals__MySprite__) */
